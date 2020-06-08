@@ -2,3 +2,5 @@
 /vendor/
 /.idea/
 /cache/
+
+/public/app.css
