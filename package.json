@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "node_modules/.bin/tailwindcss build src/app.css -o public/app.css -c tailwind.config.js",
+    "build:prod": "cross-env NODE_ENV=production node_modules/.bin/tailwindcss build src/app.css -o public/app.css -c tailwind.config.js",
+    "watch": "node_modules/.bin/browser-sync start --server 'public' --watch --files 'public'"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "cross-env": "^7.0.2",
+    "tailwindcss": "^1.4.6"
+  },
+  "dependencies": {}
+}
