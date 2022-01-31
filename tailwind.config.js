@@ -1,9 +1,7 @@
 module.exports = {
-  purge: {
-    content: [
-      './public/**/*.html'
-    ],
-  },
+  content: [
+    './public/**/*.html'
+  ],
   theme: {
     extend: {
       gridTemplateRows: {
