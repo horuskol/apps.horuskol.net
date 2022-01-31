@@ -5,6 +5,10 @@
     "build:prod": "cross-env NODE_ENV=production node_modules/.bin/tailwindcss build -i src/app.css -o public/app.css -c tailwind.config.js",
     "watch": "node_modules/.bin/browser-sync start --server 'public' --watch --files 'public'"
   },
+  "engines": {
+    "node": "^16.13.0",
+    "npm": "^8.1.4"
+  },
   "devDependencies": {
     "browser-sync": "^2.27.7",
     "cross-env": "^7.0.3",
